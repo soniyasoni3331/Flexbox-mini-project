@@ -1,0 +1,44 @@
+body{
+    background-color:lightskyblue;
+    color:rgb(26, 15, 94);
+    margin: 0 12%;
+}
+.description{
+    text-align: center;
+    margin: 10px;
+}
+.description > h2{
+    margin: 0px;
+}
+.description > p{
+    margin: 0px;
+}
+.sub-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.f-item{
+    height: 220px;
+    width: 220px;
+    padding: 10px;
+    background-color: rgb(183, 228, 243);
+    margin: 6px;
+}
+.svg-folder{
+    height: 100;
+    width: 100;
+    color: rgb(89, 180, 236);
+}
+.f-item>p{
+    font-size: 14px;
+}
+.t-stack-list{
+    list-style-type: none;
+    display: flex;
+    gap:15px;
+    font-size: 15px;
+    padding: 0;
+    color:rgb(87, 74, 171);
+}
